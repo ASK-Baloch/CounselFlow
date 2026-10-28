@@ -1,8 +1,8 @@
 export const matters = [
-  { id: 'MAT-1042', name: 'Northstar MSA Renewal', client: 'Northstar Systems', owner: 'Zainab Khan', status: 'In Review', value: '$240K', risk: 'High', deadline: 'Sep 20, 2026', docs: 7 },
+  { id: 'MAT-1042', name: 'Northstar MSA Renewal', client: 'Northstar Systems', owner: 'Ahmed Khan', status: 'In Review', value: '$240K', risk: 'High', deadline: 'Sep 20, 2026', docs: 7 },
   { id: 'MAT-1038', name: 'Atlas Vendor Onboarding', client: 'Atlas Health', owner: 'Sarah Malik', status: 'Negotiation', value: '$92K', risk: 'Medium', deadline: 'Sep 24, 2026', docs: 4 },
   { id: 'MAT-1031', name: 'Beacon Employment Pack', client: 'Beacon Labs', owner: 'Omar Ali', status: 'Drafting', value: '$38K', risk: 'Low', deadline: 'Oct 02, 2026', docs: 11 },
-  { id: 'MAT-1027', name: 'Helio Data Processing Addendum', client: 'Helio Commerce', owner: 'Zainab Khan', status: 'Approved', value: '$180K', risk: 'Low', deadline: 'Closed', docs: 5 },
+  { id: 'MAT-1027', name: 'Helio Data Processing Addendum', client: 'Helio Commerce', owner: 'Ahmed Khan', status: 'Approved', value: '$180K', risk: 'Low', deadline: 'Closed', docs: 5 },
 ];
 
 export const clients = [
@@ -21,14 +21,14 @@ export const clauses = [
 ];
 
 export const tasks = [
-  { id: 1, title: 'Review Northstar liability redlines', matter: 'MAT-1042', assignee: 'Zainab Khan', due: 'Today', priority: 'High', completed: false },
+  { id: 1, title: 'Review Northstar liability redlines', matter: 'MAT-1042', assignee: 'Ahmed Khan', due: 'Today', priority: 'High', completed: false },
   { id: 2, title: 'Approve Atlas DPA exceptions', matter: 'MAT-1038', assignee: 'Sarah Malik', due: 'Tomorrow', priority: 'High', completed: false },
   { id: 3, title: 'Send Beacon employment pack', matter: 'MAT-1031', assignee: 'Omar Ali', due: 'Sep 19', priority: 'Medium', completed: false },
-  { id: 4, title: 'Archive signed Helio addendum', matter: 'MAT-1027', assignee: 'Zainab Khan', due: 'Sep 20', priority: 'Low', completed: true },
+  { id: 4, title: 'Archive signed Helio addendum', matter: 'MAT-1027', assignee: 'Ahmed Khan', due: 'Sep 20', priority: 'Low', completed: true },
 ];
 
 export const activity = [
-  { who: 'Zainab Khan', action: 'flagged a high-risk indemnity clause', item: 'Northstar MSA', time: '12 min ago' },
+  { who: 'Ahmed Khan', action: 'flagged a high-risk indemnity clause', item: 'Northstar MSA', time: '12 min ago' },
   { who: 'Sarah Malik', action: 'approved 3 clause changes', item: 'Atlas DPA', time: '38 min ago' },
   { who: 'Omar Ali', action: 'uploaded a new document', item: 'Employment Agreement v4', time: '1 hr ago' },
   { who: 'CounselFlow AI', action: 'completed a risk review', item: 'Vendor NDA', time: '2 hrs ago' },

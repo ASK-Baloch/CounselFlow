@@ -8,7 +8,7 @@ import { activity, matters, reviewActivity } from '@/lib/mockData';
 export default function Dashboard() {
   return (
     <div className="mx-auto max-w-[1500px] p-5 lg:p-8">
-      <PageHeader eyebrow="Workspace overview" title="Good evening, Zainab" description="Your contract review pipeline, risk posture and approvals at a glance."
+      <PageHeader eyebrow="Workspace overview" title="Good evening, Ahmed" description="Your contract review pipeline, risk posture and approvals at a glance."
         actions={<><Link href="/documents" className="cf-btn-secondary"><UploadCloud size={16}/>Add document</Link><Link href="/documents/demo-contract" className="cf-btn-primary"><Sparkles size={16}/>Open AI Review</Link></>} />
 
       <div className="mt-7 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
